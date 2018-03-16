@@ -9,4 +9,14 @@
 - 自定义使用：如果你想自己修改的话，或者项目依赖和webpack有所变动的话，那么请看下面详细教程。
 
 ## 手把手教你改造vue-cli
+### 准备工作
+你的本地环境需要安装 [node](http://nodejs.org/) 和 [git](https://git-scm.com/)，同时确保你已经安装了安装vue-cli。
 
+### 实战开始
+- 打开git控制台，新建一个空文件夹`mkdir project`，进入文件夹`cd project`
+- 执行`vue init webpack`,不要安装了vue-router,eslint自行选择安装。
+- 打开package.json文件，删除全部带有vue的依赖配置。
+- 安装我们需要的依赖包：`npm install `
+
+
+> 未完待续...
